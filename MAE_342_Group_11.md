@@ -91,7 +91,8 @@ In normal operating conditions, the turbine blade pitch will be positioned based
 
 ## 1.2 System Decomposition {#1.2-system-decomposition}
 
-![][image1]
+<img width="665" height="296" alt="Screenshot 2026-03-24 121902" src="https://github.com/user-attachments/assets/df060df2-959c-4771-a0dd-eb00a9746ccf" />
+
 
 ### 1.2.1 Blade-Hub Interface Subsystem {#1.2.1-blade-hub-interface-subsystem}
 
@@ -114,7 +115,8 @@ To generate power, a motor is placed in the back attached to a shaft that spins 
 ## 2.1 Kinematic Relationships {#2.1-kinematic-relationships}
 
 The mechanism uses rods to translate linear motion into rotational motion between the sliding hub and the blade itself. There is a fixed and rotating section of the mechanism. The fixed end consists of a plate and an actuator. The plate slides along a shaft or rail to transmit the linear motion. The fixed plate interfaces with a sliding plate that has rods and a housing that interfaces with the blade. The linear motion of the sliding plate is translated through the push rods into an offset housing that allows for the blade to pivot, causing a change of pitch.   
-![][image2]
+<img width="594" height="432" alt="Screenshot 2026-03-24 121938" src="https://github.com/user-attachments/assets/7961ea7a-ea7e-48f2-ac82-65359388ce29" />
+
 
 ## 2.2 Key states {#2.2-key-states}
 
