@@ -231,43 +231,56 @@ Wind turbine blades are typically made from glass-fiber reinforced polymer (GFRP
 ##### 3.2.1.1.1 CASE 1: 600 Pa (low wind scenario) 
 
 Figure 5: Total Deformation \- Case 1  
-![][image5]
+<img width="810" height="537" alt="600Pa_Deformation" src="https://github.com/user-attachments/assets/bdc928b5-549d-421c-bf1f-6c242338ea0a" />
+
 
 Figure 6: Equivalent Stress (Von Mises) \- Case 1  
-![][image6]
+<img width="806" height="545" alt="600Pa_Equivalent" src="https://github.com/user-attachments/assets/eca71263-9217-4625-8986-6d3145299da4" />
+
 
 Figure 7: Maximum Principal Stress \- Case 1  
-![][image7]
+<img width="803" height="546" alt="600Pa_MaxPrincipal" src="https://github.com/user-attachments/assets/e18104da-eef5-4516-9fd5-cc1f2cd7c71d" />
+
 
 Figure 8: Safety Factor \- Case 1  
-![][image8]
+<img width="802" height="542" alt="600Pa_Safety factor" src="https://github.com/user-attachments/assets/a3a93f94-b0c4-4e3c-9e0f-0106cafd2953" />
+
 
 ##### 3.2.1.1.2 CASE 2: 1200 Pa (medium-high wind) 
 
 Figure 9: Total Deformation \- Case 2  
-![][image9]
+<img width="797" height="532" alt="1200Pa_Deformation" src="https://github.com/user-attachments/assets/cca751ad-c1d8-439c-8874-237bcb428791" />
+
 
 Figure 10: Equivalent Stress (Von Mises) \- Case 2  
-![][image10]
+<img width="802" height="548" alt="1200Pa_Equivalent" src="https://github.com/user-attachments/assets/c660d09e-c171-46c6-b283-e4776e7bb847" />
+
 
 Figure 11: Maximum Principal Stress \- Case 2  
-![][image11]
+<img width="806" height="545" alt="1200Pa_Principal Stress" src="https://github.com/user-attachments/assets/007e6cfa-6397-4a6e-bc6a-e6d2d31cc678" />
+
 
 Figure 12: Safety Factor \- Case 2  
-![][image12]
+<img width="805" height="545" alt="1200Pa_Safety" src="https://github.com/user-attachments/assets/833b803d-e183-48c8-93e1-a1392592f46d" />
+
 
 ##### 3.2.1.1.3 CASE 3: 2000 Pa (high wind conditions) 
 
-Figure 13: Total Deformation \- Case 3![][image13]
+Figure 13: Total Deformation \- Case 3
+<img width="797" height="545" alt="2000Pa_Deformation" src="https://github.com/user-attachments/assets/ffaf9a70-9d7b-44c3-b9de-cad625435ba5" />
+
 
 Figure 14: Equivalent Stress (Von Mises) \- Case 3  
-![][image14]
+<img width="803" height="541" alt="2000Pa_Equivalent" src="https://github.com/user-attachments/assets/e6d98d18-6d10-486f-99a3-44b1a0fbf836" />
+
 
 Figure 15: Maximum Principal Stress \- Case 3  
-![][image15]
+<img width="802" height="542" alt="2000Pa_MaxPrincipal" src="https://github.com/user-attachments/assets/38890d33-f1df-48c6-9435-820b9e16545e" />
+
 
 Figure 16: Safety Factor \- Case 3  
-![][image16]
+<img width="807" height="540" alt="2000Pa_Safety" src="https://github.com/user-attachments/assets/0abf240d-71ba-4af6-b45a-d0388c0aefee" />
+
 
 ### 3.2.2 Analysis Notes 
 
