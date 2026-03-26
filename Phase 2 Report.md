@@ -124,7 +124,7 @@ Phase 2 Report
 
 # 
 
-# 1\. Overview of the Final Design {#1.-overview-of-the-final-design}
+# 1\. Overview of the Final Design 
 
 ## 1.1 System Function {#1.1-system-function}
 
