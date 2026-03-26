@@ -156,7 +156,8 @@ In normal operating conditions, the turbine blade pitch will be positioned based
 ## 1.2 System Decomposition {#1.2-system-decomposition}
 
 Figure 1: Model Assembly  
-![][image1]
+<img width="756" height="833" alt="Turbine3" src="https://github.com/user-attachments/assets/f601dd0c-7df2-4b60-a129-e10cab2b3fa2" /> 
+
 
 ### 1.2.1 Blade-Hub Interface Subsystem {#1.2.1-blade-hub-interface-subsystem}
 
@@ -177,7 +178,8 @@ To generate power, a motor is placed in the back attached to the shaft. To harne
 # 2\. Description of the Major Design Decisions and Changes Post-Phase One {#2.-description-of-the-major-design-decisions-and-changes-post-phase-one}
 
 The final design has had two major changes from the initial design, as well as many smaller modifications.   
-![][image2]![][image3]![][image4]  
+<img width="200" height="250" alt="MEE342 3blade turbine design" src="https://github.com/user-attachments/assets/3c2041e0-59cf-4f3d-ba27-358d92f4cd4e" /> <img width="200" height="250" alt="Screenshot 2026-03-25 175901" src="https://github.com/user-attachments/assets/fe960e6b-4c31-42bb-8c3f-ad63aa1ffa79" /> <img width="200" height="250" alt="Turbine3" src="https://github.com/user-attachments/assets/b747c12b-c552-428d-93b9-1351f91b9537" />
+
    Figure 2: Phase 1 Design	     Figure 3: 1st Major Update         Figure 4: Final Assembly
 
 ## 2.1 Design Additions {#2.1-design-additions}
@@ -210,15 +212,15 @@ Two beams with ball bearings support the shaft and contain the pitch actuation i
 ## 3.1 Engineering Analyses Test {#3.1-engineering-analyses-test}
 
 We performed engineering analysis tests on the critical components using Ansys. We ran a total deformation, Von-Mises stress, maximum principal stress, and safety factor test on the blades in a few different wind scenarios: 600 Pa (approx.31 m/s) , 1200 Pa (approx.44 m/s), 2000 Pa (approx.57 m/s). These values were determined from the wind pressure formula:  
-q=12V2  
+q = 0.5*ρV^2 
 Where:  
-q= pressure (Pa)  
-\= 1.225 kg/m^3 (air density)  
-V \= wind speed (m/s)
+q = pressure (Pa)  
+ρ = 1.225 kg/m^3 (air density)  
+V = wind speed (m/s)
 
 ## 3.2 Engineering Analyses Results {#3.2-engineering-analyses-results}
 
-The blade was modeled using a fiberglass composite (GFRP) with an isotropic approximation to simplify analysis, using representative material properties from literature. Three loading cases (600 Pa, 1200 Pa, and 2000 Pa) were evaluated to simulate low to high wind conditions and assess structural performance. Results showed that maximum deformation occurs at the blade tip, with values around 1.5 mm, which is acceptable given the flexibility of composite materials. Peak stresses were concentrated near the geometric transition from the root to the thinner blade section, but remained significantly below the material’s tensile strength. Even under the highest loading condition, the maximum stress (\~6.6 MPa) was well within safe limits compared to the 50 MPa tensile strength of GFRP.
+The blade was modeled using a fiberglass composite (GFRP) with an isotropic approximation to simplify analysis, using representative material properties from literature. Three loading cases (600 Pa, 1200 Pa, and 2000 Pa) were evaluated to simulate low to high wind conditions and assess structural performance. Results showed that maximum deformation occurs at the blade tip, with values around 1.5 mm, which is acceptable given the flexibility of composite materials. Peak stresses were concentrated near the geometric transition from the root to the thinner blade section, but remained significantly below the material’s tensile strength. Even under the highest loading condition, the maximum stress (~6.6 MPa) was well within safe limits compared to the 50 MPa tensile strength of GFRP.
 
 ### 3.2.1 Analysis Results {#3.2.1-analysis-results}
 
@@ -282,31 +284,36 @@ The linear translation mechanism is designed to convert rotational input from a 
 #### 4.1.1.1 Linear Handle (Crank) {#4.1.1.1-linear-handle-(crank)}
 
 Figure 17: Linear Handle  
-![][image17]  
+ <img width="785" height="606" alt="Screenshot 2026-03-24 155144" src="https://github.com/user-attachments/assets/a4678690-67e8-48a0-8b4b-a554bc941ecd" />
+
 The CAD drawing illustrates the pitch control handle, designed to allow manual operator adjustment of the turbine blade angles. This mechanism is engineered to accommodate an integrated motor, enabling automated blade pitch adjustment based on real-time RPM and wind speed data.
 
 #### 4.1.1.2 Linear Linkage {#4.1.1.2-linear-linkage}
 
 Figure 18: Linear Linkage  
-![][image18]  
+ <img width="939" height="727" alt="Screenshot 2026-03-24 155202" src="https://github.com/user-attachments/assets/524da947-1117-430c-a4d1-b4615efdbd96" />
+
 The model contains two linkages for the linear actuation input system. These connect from the input disc to the inner thrust bearing to provide axial motion along the shaft. The slight curve allows the linkage to rotate farther back on the input disc.
 
 #### 4.1.1.3 Linear Shaft {#4.1.1.3-linear-shaft}
 
 Figure 19: Linear Shaft  
-![][image19]  
+ <img width="785" height="612" alt="Screenshot 2026-03-24 155213" src="https://github.com/user-attachments/assets/ea05de40-fbab-49e3-a00b-b3f5dd14f8db" />
+
 The shaft for the linear actuation system input is housed in the first support beam, connected to the linear disc and the handle to ensure synchronized rotation for all components..
 
 #### 4.1.1.4 Linear Disc {#4.1.1.4-linear-disc}
 
 Figure 20: Linear Disc  
-![][image20]  
+<img width="811" height="629" alt="Screenshot 2026-03-24 155134" src="https://github.com/user-attachments/assets/02e20880-9dc1-4086-af9b-09bdd637761a" />
+
 This disc connects the linear shaft to the linkages, transforming rotational motion into translational motion.
 
 #### 4.1.1.5 Radial Ball Bearing {#4.1.1.5-radial-ball-bearing}
 
 Figure 21: Radial Ball Bearing  
-![][image21]  
+ <img width="633" height="489" alt="Screenshot 2026-03-24 155222" src="https://github.com/user-attachments/assets/24298bbe-1aa8-4af8-b753-251fae270f2e" />
+
 This radial ball bearing was outsourced, but may require a custom design if not locally available. The middle diameter should be 35mm; the outer diameter can vary.
 
 ### 4.1.2 Structural Support {#4.1.2-structural-support}
@@ -316,24 +323,28 @@ The structural supports and mounting system are designed to provide a stable fra
 #### 4.1.2.1 35mm Shaft {#4.1.2.1-35mm-shaft}
 
 Figure 22: 35mm Shaft  
-![][image22]  
+  <img width="784" height="609" alt="Screenshot 2026-03-24 155229" src="https://github.com/user-attachments/assets/0fad2c6b-649f-4ce6-841a-6eb6ef0b43ad" />
+
 The shaft design specifies high-strength forged steel to meet operational load requirements. For prototyping purposes, a 1 ⅜ ‘’ poplar dowel (34.925mm) was utilized to approximate the nominal 35mm diameter, providing sufficient tolerance for initial assembly validation.
 
 #### 4.1.2.2 Support Beam (With Bearing) {#4.1.2.2-support-beam-(with-bearing)}
 
 Figure 23: Support Beam (With Bearing)  
-![][image23]  
+<img width="896" height="693" alt="Screenshot 2026-03-24 155237" src="https://github.com/user-attachments/assets/15d0f428-cfb6-443e-acd7-d30e06857052" />
+
 The first support beam provides structural support for the shaft, integrating the pitch actuation system input. It features integrated hard stops for linear handle limitation. Ball bearings are utilized to minimize friction at the interface.
 
 4.1.2.3 Support Beam  
 Figure 24: Support Beam  
-![][image24]  
+<img width="787" height="607" alt="Screenshot 2026-03-24 155245" src="https://github.com/user-attachments/assets/e9bb878d-f961-4d58-a5f8-80db00a52841" />
+
 The support beam in the back is designed to handle primary tensile loads, balancing the turbine's weight to ensure structural stability. A ball bearing is integrated to minimize rotational friction and maintain efficiency at the tension point.
 
 #### 4.1.2.4 Blade Carrier {#4.1.2.4-blade-carrier}
 
 Figure 25: Blade Carrier  
-![][image25]  
+<img width="874" height="675" alt="Screenshot 2026-03-24 155051" src="https://github.com/user-attachments/assets/e19a1536-b957-4eb4-b8d8-c9490465d405" />
+
 The blade carrier is constrained within the hub utilizing specialized geometry, with the turbine blade secured to the carrier via a pin connection. The design integrates a dedicated linkage mounting point to facilitate active pitch adjustment.
 
 ### 4.1.3 Hub Mechanism  {#4.1.3-hub-mechanism}
@@ -343,19 +354,22 @@ The hub mechanism is designed to translate axial motion from the actuation syste
 #### 4.1.3.1 Blade Linkage {#4.1.3.1-blade-linkage}
 
 Figure 26: Blade Linkage  
-![][image26]  
+ <img width="938" height="725" alt="Screenshot 2026-03-24 155102" src="https://github.com/user-attachments/assets/39774bef-6e89-4480-9837-c1ffac5db7c5" />
+
 The blade linkage utilizes a pinned connection to couple the blade carriers to the forward face of the thrust bearing. Featuring a curved geometry, the linkage maintains structural clearance around the carrier while enabling consistent torque transmission throughout the operational pitch angle range.
 
 #### 4.1.3.2 Hub Bottom {#4.1.3.2-hub-bottom}
 
 Figure 27: Hub Bottom  
-![][image27]  
+<img width="785" height="607" alt="Screenshot 2026-03-24 155114" src="https://github.com/user-attachments/assets/44643561-eee2-4802-bcf6-4beb4c410aa7" />
+
 The center hub assembly comprises a two-piece, top-and-bottom design, with the lower component featuring a hexagonal recess for positive shaft retention via a bolt. The design incorporates three pinned interfaces for alignment with the top component and specialized, geometry-driven slots to secure the blade carriers.
 
 #### 4.1.3.3 Hub Top {#4.1.3.3-hub-top}
 
 Figure 28: Hub Top  
-![][image28]  
+<img width="941" height="727" alt="Screenshot 2026-03-24 155124" src="https://github.com/user-attachments/assets/e845576a-01ab-4658-bfe0-a1b4bcd3d7d9" />
+
 The top hub piece features a shallow conical face on one side and incorporates three matching holes, along with specialized geometric slots for assembly alignment. This part mirrors the bottom piece's geometry for securely clamping the blade carriers.
 
 #### 4.1.3.4 Thrust Bearing {#4.1.3.4-thrust-bearing}
@@ -363,25 +377,29 @@ The top hub piece features a shallow conical face on one side and incorporates t
 ##### 4.1.3.4.1 Thrust Bearing Outer Top Above {#4.1.3.4.1-thrust-bearing-outer-top-above}
 
 Figure 29: Thrust Bearing Outer Top Above  
-![][image29]  
+<img width="786" height="609" alt="Screenshot 2026-03-24 155456" src="https://github.com/user-attachments/assets/205c8700-a936-4f70-8042-d8c9c51f750e" />
+
 The rear thrust bearing component features a planar rear surface and an opposing face with a groove for ball bearing retention. It incorporates a central stepped-radius design with increased thickness for structural rigidity, along with six holes to facilitate assembly with the front piece and secure the middle component.
 
 ##### 4.1.3.4.2 Thrust Bearing Outer Top Below {#4.1.3.4.2-thrust-bearing-outer-top-below}
 
 Figure 30: Thrust Bearing Outer Top Below  
-![][image30]  
+<img width="783" height="613" alt="Screenshot 2026-03-24 155502" src="https://github.com/user-attachments/assets/429d350d-a473-4882-a64e-186ee4b12e42" />
+
 The top piece design is functionally similar to the rear bearing, featuring a circular groove for the bearing balls on one face and a stepped radius for structural integrity. The flat opposing face features three mounting spots designed to attach the blade linkages via a pin.
 
 ##### 4.1.3.4.3 Thrust Bearing Inner Hollow {#4.1.3.4.3-thrust-bearing-inner-hollow}
 
 Figure 31: Thrust Bearing Inner Hollow  
-![][image31]  
+<img width="803" height="619" alt="Screenshot 2026-03-24 155446" src="https://github.com/user-attachments/assets/3bfda555-017f-48ad-9247-d904a4bafa72" />
+
 The central thrust bearing piece features dual-sided grooves designed for ball bearing containment. The outer diameter includes a mounting bracket, allowing the linear linkages to attach.
 
 #### 4.1.3.5 Wind Turbine Blade {#4.1.3.5-wind-turbine-blade}
 
 Figure 32: Wind Turbine Blade  
-![][image32]  
+<img width="789" height="607" alt="Screenshot 2026-03-24 155508" src="https://github.com/user-attachments/assets/c877df70-e773-4cc9-96d7-754e5226ea6a" />
+
 The CAD model was derived from a full-scale industrial turbine blade, incorporating optimized airfoil profiles and a tailored twist-taper distribution to maximize aerodynamic efficiency. The design was scaled to a 250mm length for 3D printing, maintaining proportional geometric features such as the chord length and leading-edge profile.
 
 # 4.3 3D Assembly {#4.3-3d-assembly}
@@ -389,15 +407,26 @@ The CAD model was derived from a full-scale industrial turbine blade, incorporat
 ### 4.3.1 System Assembly {#4.3.1-system-assembly}
 
 Figure 4: Final Assembly  
-![][image33]
+<img width="756" height="833" alt="Turbine3" src="https://github.com/user-attachments/assets/a0c1bcc7-3a64-4131-b222-f4bec6f8d7d8" />
+
 
 ### 4.3.2 Exploded View {#4.3.2-exploded-view}
 
 Figure 21: Exploded View of Final Assembly  
-![][image34]  
- [Expl View Assembly.mp4](https://drive.google.com/file/d/189-3aBwLmdNSz2D88_yT23Da-9x5pd5u/view?usp=drive_link)
+<img width="878" height="741" alt="Screenshot 2026-03-24 160523" src="https://github.com/user-attachments/assets/c9e08142-6f98-46c9-aa7b-9e4acfad2ed8" />
+
+
+https://github.com/user-attachments/assets/be5e3758-bcd8-45b3-98b0-f90c94066fdc 
+
+
+  [Expl View Assembly.mp4](https://drive.google.com/file/d/189-3aBwLmdNSz2D88_yT23Da-9x5pd5u/view?usp=drive_link)
 
 ## 4.4 Basic Motion Study (Operation) {#4.4-basic-motion-study-(operation)}
+
+
+
+https://github.com/user-attachments/assets/e9f5ffc3-dab4-484b-ae17-c8958b23e65e
+
 
 [Motion Study1.mp4](https://drive.google.com/file/d/1wGi2tuSqXYtRcQhQlwCUjkBhPxxzWLBO/view?usp=drive_link) 
 
