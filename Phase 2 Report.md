@@ -126,9 +126,9 @@ Phase 2 Report
 
 # 1\. Overview of the Final Design 
 
-## 1.1 System Function {#1.1-system-function}
+## 1.1 System Function 
 
-### 1.1.1 Overall Function {#1.1.1-overall-function}
+### 1.1.1 Overall Function 
 
 The active pitch mechanism rotates each turbine blade about its blade-pitch axis (the blade root) to dynamically adjust the blade’s angle of attack relative to the incoming wind velocity. By dynamically controlling the pitch angle, the system:
 
@@ -139,15 +139,15 @@ The active pitch mechanism rotates each turbine blade about its blade-pitch axis
 
 In normal operating conditions, the turbine blade pitch will be positioned based on measured/estimated wind speed, rotor speed, generator power, and sometimes blade root bending moments.
 
-### 1.1.2 Expected Operating Conditions {#1.1.2-expected-operating-conditions}
+### 1.1.2 Expected Operating Conditions 
 
-#### 1.1.2.1 Mechanical/actuation {#1.1.2.1-mechanical/actuation}
+#### 1.1.2.1 Mechanical/actuation 
 
 - Pitch range: typically 0-90 degrees (often operated within \-5 to 30 degrees for better control, larger angles will be used to feather and/or shutdown operation).  
 - Loads through the pitch joint: large combined aerodynamic bending moments. axial/radial forces, and fatigue cycles (will be detailed later).  
 - Duty Cycle: very high cycle count over lifespan; design is relatively fatigue-critical.
 
-#### 1.1.2.2 Performance and Safety Expectations {#1.1.2.2-performance-and-safety-expectations}
+#### 1.1.2.2 Performance and Safety Expectations 
 
 - Accurate pitch positioning (will require closed-loop control)  
 - High reliability (pitch is the primary safety function)  
