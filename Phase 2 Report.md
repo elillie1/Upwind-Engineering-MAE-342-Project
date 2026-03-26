@@ -408,7 +408,7 @@ The CAD model was derived from a full-scale industrial turbine blade, incorporat
 
 Figure 4: Final Assembly  
 <img width="700" height="800" alt="Turbine3" src="https://github.com/user-attachments/assets/a0c1bcc7-3a64-4131-b222-f4bec6f8d7d8" />
-[View 3D Model](./Turbine STL.STL)
+[View 3D Model](/Turbine STL.STL)
 
 ### 4.3.2 Exploded View 
 
