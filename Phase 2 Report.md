@@ -46,11 +46,11 @@ Phase 2 Report
 
 [3.2.1.1 Blade	7](#3.2.1.1-blade)
 
-[3.2.1.1.1 CASE 1: 600 Pa (low wind scenario)	7](#3.2.1.1.1-case-1:-600-pa-\(low-wind-scenario\))
+[3.2.1.1.1 CASE 1: 90 Pa (low wind scenario)	7](#3.2.1.1.1-case-1:-90-pa-\(low-wind-scenario\))
 
-[3.2.1.1.2 CASE 2: 1200 Pa (medium-high wind)	9](#3.2.1.1.2-case-2:-1200-pa-\(medium-high-wind\))
+[3.2.1.1.2 CASE 2: 200 Pa (medium-high wind)	9](#3.2.1.1.2-case-2:-200-pa-\(medium-high-wind\))
 
-[3.2.1.1.3 CASE 3: 2000 Pa (high wind conditions)	11](#3.2.1.1.3-case-3:-2000-pa-\(high-wind-conditions\))
+[3.2.1.1.3 CASE 3: 360.6 Pa (high wind conditions)	11](#3.2.1.1.3-case-3:-360.6-pa-\(high-wind-conditions\))
 
 [3.2.2 Analysis Notes	13](#3.2.2-analysis-notes)
 
@@ -211,7 +211,7 @@ Two beams with ball bearings support the shaft and contain the pitch actuation i
 
 ## 3.1 Engineering Analyses Test 
 
-We performed engineering analysis tests on the critical components using Ansys. We ran a total deformation, Von-Mises stress, maximum principal stress, and safety factor test on the blades in a few different wind scenarios: 600 Pa (approx.31 m/s) , 1200 Pa (approx.44 m/s), 2000 Pa (approx.57 m/s). These values were determined from the wind pressure formula:  
+We performed engineering analysis tests on the critical components using Ansys. We ran a total deformation, Von-Mises stress, maximum principal stress, and safety factor test on the blades in a few different wind scenarios: 90 Pa (approx.12.1 m/s) , 200 Pa (approx.18 m/s), 360.6 Pa (approx.24.6 m/s). These values were determined from the wind pressure formula:  
 q = 0.5*ρV^2 
 Where:  
 q = pressure (Pa)  
@@ -220,71 +220,71 @@ V = wind speed (m/s)
 
 ## 3.2 Engineering Analyses Results 
 
-The blade was modeled using a fiberglass composite (GFRP) with an isotropic approximation to simplify analysis, using representative material properties from literature. Three loading cases (600 Pa, 1200 Pa, and 2000 Pa) were evaluated to simulate low to high wind conditions and assess structural performance. Results showed that maximum deformation occurs at the blade tip, with values around 1.5 mm, which is acceptable given the flexibility of composite materials. Peak stresses were concentrated near the geometric transition from the root to the thinner blade section, but remained significantly below the material’s tensile strength. Even under the highest loading condition, the maximum stress (~6.6 MPa) was well within safe limits compared to the 50 MPa tensile strength of GFRP.
+The blade was modeled using a fiberglass composite (GFRP) with an isotropic approximation to simplify analysis, using representative material properties from literature. Three loading cases (90 Pa, 200 Pa, and 360.6 Pa) were evaluated to simulate low to high wind conditions and assess structural performance. Results showed that maximum deformation occurs at the blade tip, with values around (INSERT DEFORMATION) mm, which is acceptable given the flexibility of composite materials. Peak stresses were concentrated in the root of the blade, but remained below the material’s tensile strength. Under the highest loading condition, the maximum stress (INSERT STRESS MPa) was within safe limits when measured against the 59 MPa tensile strength of GFRP. 
 
 ### 3.2.1 Analysis Results 
 
 #### 3.2.1.1 Blade 
 
-Wind turbine blades are typically made from glass-fiber reinforced polymer (GFRP) due to its high strength-to-weight ratio. Thus, a fiberglass composite was assumed for this analysis. An isotropic approximation was used to simplify the model, and the material properties were selected based on typical literature values for GFRP (1950 kg/m^3, Young’s Modulus 25 GPa, Poisson’s ratio 0.25, and tensile strength 50 MPa). For the stress analysis on the blade, 3 different loading cases were used in order to study the structural response under varying wind conditions.
+Wind turbine blades are typically made from glass-fiber reinforced polymer (GFRP) due to its high strength-to-weight ratio. Thus, a fiberglass composite was assumed for this analysis. An isotropic approximation was used to simplify the model, with Young's Modulus derived from the Longitudal Modulus and Poisson's ratio, and the material properties were selected based on literature values for GFRP (1962 kg/m^3, Young’s Modulus 33.61 GPa, Poisson’s ratio 0.27, and tensile yield/ultimate strength 59 MPa) from [Static and Fatigue Performance of GFRP](https://www.sciencedirect.com/science/article/pii/S0141029625015081#fig7). For the stress analysis on the blade, three different loading cases were used in order to study the structural response under varying wind conditions. The root end of the blade is modeled with a fixed support to simulate cantilever behavior. The maximum stress is expected at the root due to the smaller cross section and changes in geometry, as confirmed by ANSYS simulation results.
 
-##### 3.2.1.1.1 CASE 1: 600 Pa (low wind scenario) 
+##### 3.2.1.1.1 CASE 1: 90 Pa (low wind scenario) 
 
 Figure 5: Total Deformation \- Case 1  
-<img width="810" height="537" alt="600Pa_Deformation" src="https://github.com/user-attachments/assets/bdc928b5-549d-421c-bf1f-6c242338ea0a" />
+(DELETE THIS AND DRAG IMAGE HERE FROM FILES)
 
 
 Figure 6: Equivalent Stress (Von Mises) \- Case 1  
-<img width="806" height="545" alt="600Pa_Equivalent" src="https://github.com/user-attachments/assets/eca71263-9217-4625-8986-6d3145299da4" />
+(IMAGE)
 
 
 Figure 7: Maximum Principal Stress \- Case 1  
-<img width="803" height="546" alt="600Pa_MaxPrincipal" src="https://github.com/user-attachments/assets/e18104da-eef5-4516-9fd5-cc1f2cd7c71d" />
+(IMAGE)
 
 
 Figure 8: Safety Factor \- Case 1  
-<img width="802" height="542" alt="600Pa_Safety factor" src="https://github.com/user-attachments/assets/a3a93f94-b0c4-4e3c-9e0f-0106cafd2953" />
+(IMAGE)
 
 
-##### 3.2.1.1.2 CASE 2: 1200 Pa (medium-high wind) 
+##### 3.2.1.1.2 CASE 2: 200 Pa (medium-high wind) 
 
 Figure 9: Total Deformation \- Case 2  
-<img width="797" height="532" alt="1200Pa_Deformation" src="https://github.com/user-attachments/assets/cca751ad-c1d8-439c-8874-237bcb428791" />
+(IMAGE)
 
 
 Figure 10: Equivalent Stress (Von Mises) \- Case 2  
-<img width="802" height="548" alt="1200Pa_Equivalent" src="https://github.com/user-attachments/assets/c660d09e-c171-46c6-b283-e4776e7bb847" />
+(IMAGE)
 
 
 Figure 11: Maximum Principal Stress \- Case 2  
-<img width="806" height="545" alt="1200Pa_Principal Stress" src="https://github.com/user-attachments/assets/007e6cfa-6397-4a6e-bc6a-e6d2d31cc678" />
+(IMAGE)
 
 
 Figure 12: Safety Factor \- Case 2  
-<img width="805" height="545" alt="1200Pa_Safety" src="https://github.com/user-attachments/assets/833b803d-e183-48c8-93e1-a1392592f46d" />
+(IMAGE)
 
 
-##### 3.2.1.1.3 CASE 3: 2000 Pa (high wind conditions) 
+##### 3.2.1.1.3 CASE 3: 360.6 Pa (high wind conditions) 
 
 Figure 13: Total Deformation \- Case 3
-<img width="797" height="545" alt="2000Pa_Deformation" src="https://github.com/user-attachments/assets/ffaf9a70-9d7b-44c3-b9de-cad625435ba5" />
+(IMAGE)
 
 
 Figure 14: Equivalent Stress (Von Mises) \- Case 3  
-<img width="803" height="541" alt="2000Pa_Equivalent" src="https://github.com/user-attachments/assets/e6d98d18-6d10-486f-99a3-44b1a0fbf836" />
+(IMAGE)
 
 
 Figure 15: Maximum Principal Stress \- Case 3  
-<img width="802" height="542" alt="2000Pa_MaxPrincipal" src="https://github.com/user-attachments/assets/38890d33-f1df-48c6-9435-820b9e16545e" />
+(IMAGE)
 
 
 Figure 16: Safety Factor \- Case 3  
-<img width="807" height="540" alt="2000Pa_Safety" src="https://github.com/user-attachments/assets/0abf240d-71ba-4af6-b45a-d0388c0aefee" />
+(IMAGE)
 
 
 ### 3.2.2 Analysis Notes 
 
-The tip of the blade experiences the most deformation. In the 3 cases, the maximum deformation is around 1.5mm, which is acceptable for fiberglass as it is a composite material that allows for flexing without breaking due to bending. The maximum stress occurs at the change in geometry from the large circular base of the blade to the thinner portion of the design. Since the material is a composite, the strength is determined by its layer thickness and internal density. According to a study included in the [National Library of Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC7998433/), the tensile strength of GFRP for small samples was 50MPa, much higher than the maximum of 6.6MPa we encountered in the high wind scenario. From such a large difference in tensile strength from 50MPa as a baseline for failure, the safety factor was well above standards. In the maximum wind scenario of 2000Pa, the minimum safety factor was 8.3. 
+The tip of the blade experiences the most deformation. In the 3 cases, the maximum deformation is around 1.5mm, which is acceptable for fiberglass as it is a composite material that allows for flexing without breaking due to bending. The maximum stress occurs at the change in geometry from the large circular base of the blade to the thinner portion of the design. Since the material is a composite, the strength is determined by its layer thickness and internal density. According to a study included in the [National Library of Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC7998433/), the tensile strength of GFRP for small samples was 59MPa, higher than the maximum of (INSERT STRESS)MPa we encountered in the high wind scenario. From the difference in tensile strength with 59MPa as a baseline for failure, the safety factor was well above standards. In the maximum wind scenario of 360.6Pa, the minimum safety factor was (INSERT SAFETY FACTOR). 
 
 # 4\. Discussion of Design for Assembly & 3D Printing 
 
