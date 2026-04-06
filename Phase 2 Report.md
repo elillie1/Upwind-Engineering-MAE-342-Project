@@ -211,7 +211,7 @@ Two beams with ball bearings support the shaft and contain the pitch actuation i
 
 ## 3.1 Engineering Analyses Test 
 
-We performed engineering analysis tests on the critical components using Ansys. We ran a total deformation, Von-Mises stress, maximum principal stress, and safety factor test on the blades in a few different wind scenarios: 90 Pa (approx.12.1 m/s) , 200 Pa (approx.18 m/s), 360.6 Pa (approx.24.6 m/s). These values were determined from the wind pressure formula:  
+We performed engineering analysis tests on the critical components using Ansys. We ran a total deformation, Von-Mises stress, maximum principal stress, and safety factor test on the blades in a few different wind scenarios: 90 Pa (approx.12.1 m/s) , 200 Pa (approx.18 m/s), 360.6 Pa (approx.24.6 m/s), from [Wind Power Facts](https://cleanpower.org/facts/wind-power/). These values were determined from the wind pressure formula:  
 q = 0.5*ρV^2 
 Where:  
 q = pressure (Pa)  
@@ -284,7 +284,7 @@ Figure 16: Safety Factor \- Case 3
 
 ### 3.2.2 Analysis Notes 
 
-The tip of the blade experiences the most deformation. In the 3 cases, the maximum deformation is around 1.5mm, which is acceptable for fiberglass as it is a composite material that allows for flexing without breaking due to bending. The maximum stress occurs at the change in geometry from the large circular base of the blade to the thinner portion of the design. Since the material is a composite, the strength is determined by its layer thickness and internal density. According to a study included in the [National Library of Medicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC7998433/), the tensile strength of GFRP for small samples was 59MPa, higher than the maximum of (INSERT STRESS)MPa we encountered in the high wind scenario. From the difference in tensile strength with 59MPa as a baseline for failure, the safety factor was well above standards. In the maximum wind scenario of 360.6Pa, the minimum safety factor was (INSERT SAFETY FACTOR). 
+The tip of the blade experiences the most deformation. In the 3 cases, the maximum deformation is around (INSERT DEFORMATION)mm, which is acceptable for fiberglass as it is a composite material that allows for flexing without breaking due to bending. The maximum stress occurs at the root of the blade where the geometry changes. Since the material is a composite, the strength is determined by its layer thickness and internal density. According to a study included in the [Static and Fatigue Performance of GFRP](https://www.sciencedirect.com/science/article/pii/S0141029625015081#fig7), the tensile strength of GFRP for small samples was 59MPa, higher than the maximum of (INSERT STRESS)MPa we encountered in the high wind scenario. From the difference in tensile strength with 59MPa as a baseline for failure, the safety factor was well above standards. In the maximum wind scenario of 360.6Pa, the minimum safety factor was (INSERT SAFETY FACTOR). 
 
 # 4\. Discussion of Design for Assembly & 3D Printing 
 
@@ -496,3 +496,6 @@ During operation, the linkages may experience compressive forces when the hub pu
 
 This represents a potential instability failure mode that may not be immediately evident from stress analysis alone. As such, buckling should be considered when evaluating the safety and performance of these components.
 
+# 6\. References
+[Static and Fatigue Performance of GFRP](https://www.sciencedirect.com/science/article/pii/S0141029625015081#fig7)
+[Wind Power Facts](https://cleanpower.org/facts/wind-power/)
