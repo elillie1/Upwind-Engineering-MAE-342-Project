@@ -225,7 +225,7 @@ Modern wind turbines begin generating electricity at wind speeds of 3 to 4m/s, k
 
 ## 3.2 Engineering Analyses Results 
 
-The blade was modeled using a fiberglass composite (GFRP) with an isotropic approximation to simplify analysis, using representative material properties from literature. Three loading cases (90 Pa, 200 Pa, and 360.6 Pa) were evaluated to simulate low to high wind conditions and assess structural performance. Results showed that maximum deformation occurs at the blade tip, with values around (INSERT DEFORMATION) mm, which is acceptable given the flexibility of composite materials. Peak stresses were concentrated in the root of the blade, but remained below the material’s tensile strength. Under the highest loading condition, the maximum stress (INSERT STRESS MPa) was within safe limits when measured against the 59 MPa tensile strength of GFRP. 
+The blade was modeled using a fiberglass composite (GFRP) with an isotropic approximation to simplify analysis, using representative material properties from literature. Three loading cases (90 Pa, 200 Pa, and 360.6 Pa) were evaluated to simulate low to high wind conditions and assess structural performance. Results showed that maximum deformation occurs at the blade tip, with values around 1.19 mm, which is acceptable given the flexibility of composite materials. Peak stresses were concentrated in the root of the blade, but remained well below the material’s tensile strength. Under the highest loading condition, the maximum stress (8.48 MPa) was within safe limits when measured against the 59 MPa tensile strength of GFRP. 
 
 ### 3.2.1 Analysis Results 
 
