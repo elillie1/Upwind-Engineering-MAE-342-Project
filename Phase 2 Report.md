@@ -120,6 +120,8 @@ Phase 2 Report
 
 [5.3.3 Linkage Buckling Under Compression	28](#5.3.3-linkage-buckling-under-compression)
 
+[**6\. References**](#6.-References)
+
 # 
 
 # 
