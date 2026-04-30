@@ -181,8 +181,10 @@ All custom components were exported from SolidWorks as individual STL files in a
 
 #### 2.2.2.1 Hub Top and Bottom 
 **Figure 2: Physical Model for Hub Top**  
+<img width="2157" height="1618" alt="Wing_Pitch_Cone_2" src="https://github.com/user-attachments/assets/3fbcea2e-76aa-4687-98b9-7efe4eb05bcf" />
 
 **Figure 3: Physical Model for Hub Bottom**  
+<img width="3093" height="2320" alt="Wing_Pitch_Cone" src="https://github.com/user-attachments/assets/adb3bf0f-833d-48a8-a714-2fbb76cc5b64" />
 
 2.2.2.2 Blade Carriers 
 
