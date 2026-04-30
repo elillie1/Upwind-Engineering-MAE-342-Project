@@ -243,7 +243,7 @@ All custom components were exported from SolidWorks as individual STL files in a
 <img width="469" height="554" alt="Screenshot 2026-04-30 113013" src="https://github.com/user-attachments/assets/d4cd0caa-7171-4ff3-9f99-7ad491f49b7e" />
 
 ![3D Assembly](./GLBassem2.glb)
-
+![Click to view 3D Model](https://elillie1.github.io/Upwind-Engineering-MAE-342-Project/)
 Print orientations were selected to reduce support use in curved and bearing-contact areas while preserving dimensional accuracy in mating and rotational interfaces. Care was taken in orienting the blade linkages, thrust bearing components, and blade carriers due to their sensitivity to tolerance, fitment, and alignment.
 
 ## 2.3 Print Iterations and Reprints 
