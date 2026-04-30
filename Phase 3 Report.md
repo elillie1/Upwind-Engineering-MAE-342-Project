@@ -181,56 +181,56 @@ All custom components were exported from SolidWorks as individual STL files in a
 
 #### 2.2.2.1 Hub Top and Bottom 
 **Figure 2: Physical Model for Hub Top**  
-<img width="2157" height="1618" alt="Wing_Pitch_Cone_2" src="https://github.com/user-attachments/assets/3fbcea2e-76aa-4687-98b9-7efe4eb05bcf" />
+<img width="800" height="575" alt="Wing_Pitch_Cone_2" src="https://github.com/user-attachments/assets/3fbcea2e-76aa-4687-98b9-7efe4eb05bcf" />
 
 **Figure 3: Physical Model for Hub Bottom**  
-<img width="3093" height="2320" alt="Wing_Pitch_Cone" src="https://github.com/user-attachments/assets/adb3bf0f-833d-48a8-a714-2fbb76cc5b64" />
+<img width="800" height="575" alt="Wing_Pitch_Cone" src="https://github.com/user-attachments/assets/adb3bf0f-833d-48a8-a714-2fbb76cc5b64" />
 
 2.2.2.2 Blade Carriers 
 
 **Figure 4: Physical Model for Blade Carriers (x3)**  
-<img width="2271" height="1703" alt="Wing_Pitch_Part" src="https://github.com/user-attachments/assets/b3d585ab-ad62-499c-942a-385977a2b500" />
+<img width="800" height="575" alt="Wing_Pitch_Part" src="https://github.com/user-attachments/assets/b3d585ab-ad62-499c-942a-385977a2b500" />
 
 2.2.2.3 Blade Linkages 
 
 **Figure 5: Physical Model for the Blade Linkages (x3) (Side-View)**  
-<img width="763" height="572" alt="Pitch_linkages_2" src="https://github.com/user-attachments/assets/298e46b2-4683-4b41-bbdd-76c24d327d13" />
+<img width="800" height="575" alt="Pitch_linkages_2" src="https://github.com/user-attachments/assets/298e46b2-4683-4b41-bbdd-76c24d327d13" />
 
 **Figure 6: Physical Model for the Blade Linkages (x3) (Top-View)**  
-<img width="850" height="637" alt="Pitch_linkages" src="https://github.com/user-attachments/assets/ed051823-abf3-4214-b336-ba18afbbebb8" />
+<img width="800" height="575" alt="Pitch_linkages" src="https://github.com/user-attachments/assets/ed051823-abf3-4214-b336-ba18afbbebb8" />
 
 2.2.2.5 Linear Disc 
 
 **Figure 7: Physical Model for the Linear Disc**  
-<img width="1583" height="1187" alt="Actuator_Disc_2" src="https://github.com/user-attachments/assets/50b5d277-d8f5-4eaa-8086-092ca6a9ecb3" />
+<img width="800" height="575" alt="Actuator_Disc_2" src="https://github.com/user-attachments/assets/50b5d277-d8f5-4eaa-8086-092ca6a9ecb3" />
 
 2.2.2.8 Linear Gears
 
 **Figure 8: Physical Model for the 10-tooth Linear Gears**  
-<img width="2217" height="1663" alt="Gears_2" src="https://github.com/user-attachments/assets/f5d37185-26ae-4bdf-9fe8-37d8fe9ed20e" />
+<img width="800" height="575" alt="Gears_2" src="https://github.com/user-attachments/assets/f5d37185-26ae-4bdf-9fe8-37d8fe9ed20e" />
 
 **Figure 9: Physical Model for the 16-tooth Linear Gears**  
-<img width="2157" height="1618" alt="Gears_1" src="https://github.com/user-attachments/assets/20e2a891-a985-4130-a691-450400c5d199" />
+<img width="800" height="575" alt="Gears_1" src="https://github.com/user-attachments/assets/20e2a891-a985-4130-a691-450400c5d199" />
 
 2.2.2.9 Thrust Bearing Components 
 
 **Figure 10: Physical Model for the Thrust Bearing Top Back (1)**  
-<img width="1535" height="1157" alt="Bearing_Top_Back_1" src="https://github.com/user-attachments/assets/747db7cc-81a8-4bb7-b1b9-b15fc31d9776" />
+<img width="800" height="575" alt="Bearing_Top_Back_1" src="https://github.com/user-attachments/assets/747db7cc-81a8-4bb7-b1b9-b15fc31d9776" />
 
 **Figure 11: Physical Model for the Thrust Bearing Top Back (2)**  
-<img width="2148" height="1605" alt="Bearing_Top_Back_2" src="https://github.com/user-attachments/assets/f8c9783a-baf3-402c-9827-836a6bdcef66" />
+<img width="800" height="575" alt="Bearing_Top_Back_2" src="https://github.com/user-attachments/assets/f8c9783a-baf3-402c-9827-836a6bdcef66" />
 
 **Figure 12: Physical Model for the Thrust Bearing Top Front**  
-<img width="992" height="744" alt="Bearing_Top_Front" src="https://github.com/user-attachments/assets/b5848508-6a75-4c97-be04-182fedffb8c6" />
+<img width="800" height="575" alt="Bearing_Top_Front" src="https://github.com/user-attachments/assets/b5848508-6a75-4c97-be04-182fedffb8c6" />
 
 **Figure 13: Physical Model for the Thrust Bearing Bottom Front**  
-<img width="1946" height="1459" alt="Bearing_bottom_Front" src="https://github.com/user-attachments/assets/ab9ff1fc-8225-4ada-8eac-89fe126c4fb4" />
+<img width="800" height="575" alt="Bearing_bottom_Front" src="https://github.com/user-attachments/assets/ab9ff1fc-8225-4ada-8eac-89fe126c4fb4" />
 
 **Figure 14: Physical Model for the Thrust Bearing Bottom Back (1)**  
-<img width="1019" height="764" alt="Bearing_Bottom_Back_1" src="https://github.com/user-attachments/assets/62cbfb87-f353-42a8-84cb-2d6560cb2e4b" />
+<img width="800" height="575" alt="Bearing_Bottom_Back_1" src="https://github.com/user-attachments/assets/62cbfb87-f353-42a8-84cb-2d6560cb2e4b" />
 
 **Figure 15: Physical Model for the Thrust Bearing Bottom Back (2)**  
-<img width="1096" height="820" alt="Bearing_Bottom_Back_2" src="https://github.com/user-attachments/assets/d8b941bc-ca6f-4695-a2a3-667b615c0bad" />
+<img width="800" height="575" alt="Bearing_Bottom_Back_2" src="https://github.com/user-attachments/assets/d8b941bc-ca6f-4695-a2a3-667b615c0bad" />
 
 2.2.2.10 Wind Turbine Blades 
 
@@ -381,7 +381,8 @@ The largest takeaway from Phase 3 was that mechanical functionality was successf
 # 8\. Final Poster 
 
 **Figure 18: Final Project Poster**
-[USE THIS ONE.pdf](https://github.com/user-attachments/files/27255827/USE.THIS.ONE.pdf)
+<img width="2304" height="3456" alt="USE THIS ONE" src="https://github.com/user-attachments/assets/885a4aef-8138-419f-8a9b-fca5942d6cd5" />
+
 
 # 9\. Conclusion 
 
