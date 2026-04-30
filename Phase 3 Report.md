@@ -4,7 +4,7 @@
 
 **Table of Contents**
 
-[**1. Overview of Phase 3	3**](#1.-overview-of-phase-3)
+[**1. Overview of Phase 3**](#1.-overview-of-phase-3)
 
 [1.1 Phase 3 Objectives	3](#1.1-phase-3-objectives)
 
@@ -120,7 +120,7 @@ Figure 16: Physical Model for the Turbine Blades
 Figure 17: Physical Model for the Final Prototype Assembly  
 Figure 18: Final Project Poster
 
-# 1\. Overview of Phase 3 [**1. Overview of Phase 3	3**] 
+ [**1. Overview of Phase 3**]
 
 ## 1.1 Phase 3 Objectives 
 
