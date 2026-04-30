@@ -1,0 +1,31 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>3D Assembly Viewer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Load the Google Model-Viewer script -->
+    <script type="module" src="https://googleapis.com"></script>
+    <style>
+        body { margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f0f0f0; }
+        model-viewer { width: 100%; height: 100%; }
+    </style>
+</head>
+<body>
+
+    <!-- Replace 'mechanical_assembly.glb' with your actual filename -->
+    <model-viewer 
+        src="mechanical_assembly.glb" 
+        ar 
+        camera-controls 
+        touch-action="pan-y" 
+        shadow-intensity="1" 
+        alt="A 3D model of my SolidWorks Assembly">
+    </model-viewer>
+
+</body>
+</html>
+
+
+
