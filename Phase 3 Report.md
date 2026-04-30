@@ -189,45 +189,58 @@ All custom components were exported from SolidWorks as individual STL files in a
 2.2.2.2 Blade Carriers 
 
 **Figure 4: Physical Model for Blade Carriers (x3)**  
+<img width="2271" height="1703" alt="Wing_Pitch_Part" src="https://github.com/user-attachments/assets/b3d585ab-ad62-499c-942a-385977a2b500" />
 
 2.2.2.3 Blade Linkages 
 
 **Figure 5: Physical Model for the Blade Linkages (x3) (Side-View)**  
+<img width="763" height="572" alt="Pitch_linkages_2" src="https://github.com/user-attachments/assets/298e46b2-4683-4b41-bbdd-76c24d327d13" />
 
 **Figure 6: Physical Model for the Blade Linkages (x3) (Top-View)**  
+<img width="850" height="637" alt="Pitch_linkages" src="https://github.com/user-attachments/assets/ed051823-abf3-4214-b336-ba18afbbebb8" />
 
 2.2.2.5 Linear Disc 
 
 **Figure 7: Physical Model for the Linear Disc**  
+<img width="1583" height="1187" alt="Actuator_Disc_2" src="https://github.com/user-attachments/assets/50b5d277-d8f5-4eaa-8086-092ca6a9ecb3" />
 
 2.2.2.8 Linear Gears
 
 **Figure 8: Physical Model for the 10-tooth Linear Gears**  
+<img width="2217" height="1663" alt="Gears_2" src="https://github.com/user-attachments/assets/f5d37185-26ae-4bdf-9fe8-37d8fe9ed20e" />
 
 **Figure 9: Physical Model for the 16-tooth Linear Gears**  
+<img width="2157" height="1618" alt="Gears_1" src="https://github.com/user-attachments/assets/20e2a891-a985-4130-a691-450400c5d199" />
 
 2.2.2.9 Thrust Bearing Components 
 
 **Figure 10: Physical Model for the Thrust Bearing Top Back (1)**  
+<img width="1535" height="1157" alt="Bearing_Top_Back_1" src="https://github.com/user-attachments/assets/747db7cc-81a8-4bb7-b1b9-b15fc31d9776" />
 
 **Figure 11: Physical Model for the Thrust Bearing Top Back (2)**  
+<img width="2148" height="1605" alt="Bearing_Top_Back_2" src="https://github.com/user-attachments/assets/f8c9783a-baf3-402c-9827-836a6bdcef66" />
 
 **Figure 12: Physical Model for the Thrust Bearing Top Front**  
+<img width="992" height="744" alt="Bearing_Top_Front" src="https://github.com/user-attachments/assets/b5848508-6a75-4c97-be04-182fedffb8c6" />
 
 **Figure 13: Physical Model for the Thrust Bearing Bottom Front**  
+<img width="1946" height="1459" alt="Bearing_bottom_Front" src="https://github.com/user-attachments/assets/ab9ff1fc-8225-4ada-8eac-89fe126c4fb4" />
 
 **Figure 14: Physical Model for the Thrust Bearing Bottom Back (1)**  
+<img width="1019" height="764" alt="Bearing_Bottom_Back_1" src="https://github.com/user-attachments/assets/62cbfb87-f353-42a8-84cb-2d6560cb2e4b" />
 
 **Figure 15: Physical Model for the Thrust Bearing Bottom Back (2)**  
+<img width="1096" height="820" alt="Bearing_Bottom_Back_2" src="https://github.com/user-attachments/assets/d8b941bc-ca6f-4695-a2a3-667b615c0bad" />
 
 2.2.2.10 Wind Turbine Blades 
 
 **Figure 16: Physical Model for the Turbine Blades**  
+<img width="569" height="584" alt="Screenshot 2026-04-30 112959" src="https://github.com/user-attachments/assets/372a0dcd-1dc8-400f-8c42-2306281bfdd4" />
 
 2.2..11 Final Prototype Assembly 
 
-**Figure 17: Physical Model for the Final Prototype Assembly**<img width="3093" height="2320" alt="Wing_Pitch_Cone" src="https://github.com/user-attachments/assets/7f0db1db-fb70-4cfb-b722-51b440b07bdf" />
-<img width="2157" height="1618" alt="Wing_Pitch_Cone_2" src="https://github.com/user-attachments/assets/7d732272-1c71-4bca-8702-8e076fdf7c03" />
+**Figure 17: Physical Model for the Final Prototype Assembly**
+<img width="469" height="554" alt="Screenshot 2026-04-30 113013" src="https://github.com/user-attachments/assets/d4cd0caa-7171-4ff3-9f99-7ad491f49b7e" />
 
 
 **GLB file**
@@ -333,14 +346,7 @@ Although the prototype needed small modifications to achieve the performance we 
 
 **Table 1: Phase 2 Predictions and Phase 3 Outcomes**
 
-|Metric|Phase 2 Prediction|Phase 3 Prediction|Discussion|
-|-|-|-|-|
-|Pitch actuation|Functional|Functional|The prediction was validated|
-|Blade synchronization|Smooth|Moderate Lag|Tolerance/friction reduced smoothness|
-|Pitch range|\~79 degrees|\~30 degrees|Reduced by physical interference and limited range of motion|
-|Structural rigidity|Stable|Stable|The prediction was validated|
-|Linkage buckling|Possible|Not observed|Could occur under greater load|
-|Hub/blade interface stress|Critical region|Minor play observed|Matches predicted weakness|
+<img width="937" height="539" alt="Screenshot 2026-04-30 113150" src="https://github.com/user-attachments/assets/e782a54e-eb60-4d8f-a819-a7aed5a9f4d3" />
 
 Phase 2 predicted that the linkage interfaces, blade root-hub interface, and compressive linkage loading would be the most critical regions for mechanical error and failure. These predictions were validated during prototype testing, where most of the performance loss originated from those same interfaces.
 
@@ -375,6 +381,7 @@ The largest takeaway from Phase 3 was that mechanical functionality was successf
 # 8\. Final Poster 
 
 **Figure 18: Final Project Poster**
+[USE THIS ONE.pdf](https://github.com/user-attachments/files/27255827/USE.THIS.ONE.pdf)
 
 # 9\. Conclusion 
 
