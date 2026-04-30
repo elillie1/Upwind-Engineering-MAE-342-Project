@@ -120,7 +120,7 @@ Figure 16: Physical Model for the Turbine Blades
 Figure 17: Physical Model for the Final Prototype Assembly  
 Figure 18: Final Project Poster
 
-# [**1. Overview of Phase 3**]
+# 1\. Overview of Phase 3 
 
 ## 1.1 Phase 3 Objectives 
 
@@ -175,6 +175,8 @@ All custom components were exported from SolidWorks as individual STL files in a
 * Prints were oriented to reduce the need for supports and increase strength.
 
 **Figure 1: Printer Part Assignment**  
+<img width="533" height="573" alt="Screenshot 2026-04-30 112224" src="https://github.com/user-attachments/assets/6d9a79fa-cfa2-4ee3-806f-c88b3ce54a97" />
+
 2.2.2 Printed Components {#2.2.2-printed-components}
 
 #### 2.2.2.1 Hub Top and Bottom 
