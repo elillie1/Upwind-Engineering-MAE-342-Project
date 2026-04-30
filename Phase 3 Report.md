@@ -177,39 +177,56 @@ All custom components were exported from SolidWorks as individual STL files in a
 **Figure 1: Printer Part Assignment**  
 <img width="533" height="573" alt="Screenshot 2026-04-30 112224" src="https://github.com/user-attachments/assets/6d9a79fa-cfa2-4ee3-806f-c88b3ce54a97" />
 
-2.2.2 Printed Components {#2.2.2-printed-components}
+2.2.2 Printed Components 
 
 #### 2.2.2.1 Hub Top and Bottom 
 **Figure 2: Physical Model for Hub Top**  
+
 **Figure 3: Physical Model for Hub Bottom**  
+
 2.2.2.2 Blade Carriers 
 
 **Figure 4: Physical Model for Blade Carriers (x3)**  
+
 2.2.2.3 Blade Linkages 
 
 **Figure 5: Physical Model for the Blade Linkages (x3) (Side-View)**  
+
 **Figure 6: Physical Model for the Blade Linkages (x3) (Top-View)**  
+
 2.2.2.5 Linear Disc 
 
 **Figure 7: Physical Model for the Linear Disc**  
+
 2.2.2.8 Linear Gears
 
 **Figure 8: Physical Model for the 10-tooth Linear Gears**  
+
 **Figure 9: Physical Model for the 16-tooth Linear Gears**  
+
 2.2.2.9 Thrust Bearing Components 
 
 **Figure 10: Physical Model for the Thrust Bearing Top Back (1)**  
+
 **Figure 11: Physical Model for the Thrust Bearing Top Back (2)**  
+
 **Figure 12: Physical Model for the Thrust Bearing Top Front**  
+
 **Figure 13: Physical Model for the Thrust Bearing Bottom Front**  
+
 **Figure 14: Physical Model for the Thrust Bearing Bottom Back (1)**  
+
 **Figure 15: Physical Model for the Thrust Bearing Bottom Back (2)**  
+
 2.2.2.10 Wind Turbine Blades 
 
 **Figure 16: Physical Model for the Turbine Blades**  
+
 2.2..11 Final Prototype Assembly 
 
-**Figure 17: Physical Model for the Final Prototype Assembly**
+**Figure 17: Physical Model for the Final Prototype Assembly**<img width="3093" height="2320" alt="Wing_Pitch_Cone" src="https://github.com/user-attachments/assets/7f0db1db-fb70-4cfb-b722-51b440b07bdf" />
+<img width="2157" height="1618" alt="Wing_Pitch_Cone_2" src="https://github.com/user-attachments/assets/7d732272-1c71-4bca-8702-8e076fdf7c03" />
+
 
 **GLB file**
 
